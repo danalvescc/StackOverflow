@@ -8,24 +8,33 @@
     <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/br/img/favicon.ico?v=c6678b633455">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <div class="header-container">
         <div class="header">
-            <a href="#"><i></i></a>
-            <img class="logo-open" src="" alt="">
-            <img src="" alt="">
+            <a href="#">
+                <i class="material-icons">menu</i>
+            </a>
+            <div class="header-logo">
+                <img class="logo-extend" src="./assents/logo-header-extend.png" alt="logo extend">
+                <img class="logo-macro" src="./assents/logo-header-macro.png" alt="logo macro">
+            </div>
+
             <ul class="header-list-button">
                 <li><a class="active" href="./products.html">Products</a></li>
                 <li><a href="./customers.html">Customers</a></li>
                 <li><a href="./usecases.html">Use cases</a></li>
             </ul>
             <form>
-                <input type="text" placeholder="Search...">
+                <div>
+                    <input type="text" placeholder="Search...">
+                    <i class="material-icons">search</i>
+                </div>
             </form>
             <ul>
-                <li><a class="search-button" href="#"></a><i></i></li>
+                <!-- <li><a class="search-button" href="#"></a><i class="material-icons">search</i></li> -->
                 <li><a class="login-button" href="./login.html">Log In</a></li>
                 <li><a class="signup-button" href="./signup">Sign up</a></li>
             </ul>
